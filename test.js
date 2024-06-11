@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const searchButton = document.getElementById('search-button');
     const newsContainer = document.getElementById('news-container');
 
-    searchButton.addEventListener('click', async () => { // Mark the callback as async
+    searchButton.addEventListener('click', async () => { 
         const query = searchInput.value.trim();
         if (!query) return;
 
